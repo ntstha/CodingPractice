@@ -14,7 +14,7 @@ For example, the following tree has 5 unival subtrees:
  1   1
 **/
 
-public static int countUnival(TreeNode root){
+public int countUnival(TreeNode root){
         if(root==null){
             return 0;
         }
@@ -43,4 +43,4 @@ public static int countUnival(TreeNode root){
             }
         }
         return count;
-    }
+   }

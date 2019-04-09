@@ -44,3 +44,9 @@ public int countUnival(TreeNode root){
         }
         return count;
    }
+
+/**
+Time complexity : O(n)
+Space complexity: BFS in a binary tree takes contant space hence 0(1)
+
+**/

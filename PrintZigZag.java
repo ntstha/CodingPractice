@@ -16,8 +16,8 @@ public class Main {
             return;
         }
         
-        int c_sp=0;  //1
-        int level=k; //3
+        int c_sp=0; 
+        int level=k; 
         for(int i=0;i<k;i++){
             if(i>=s.length()){
                 continue;

@@ -29,14 +29,14 @@ public class Main {
             
             System.out.print(s.charAt(i));
             
-            int next_char = i+2*level-2; // 5
+            int next_char = i+2*level-2;
             
             if(level==1){
                 next_char = next_char+2*(1+k-level)-2;
             }
             int prev_char=i;
             while(next_char<s.length()){
-                for(int sp=0;sp<next_char-prev_char-1;sp++){  //3 spaces
+                for(int sp=0;sp<next_char-prev_char-1;sp++){ 
                     System.out.print(" ");
                 }
                 
@@ -54,13 +54,13 @@ public class Main {
                 if(isDown){
                     next_char = next_char+2*level-2;
                 }else{
-                    next_char = next_char+2*(1+k-level)-2; //5+2*(1+4-3)-2
+                    next_char = next_char+2*(1+k-level)-2;
                 }
             }
             
             System.out.print("\n");
-            c_sp=c_sp+1; //
-            level = level-1;  //
+            c_sp=c_sp+1;
+            level = level-1;
         }
     }
     

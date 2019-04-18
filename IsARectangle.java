@@ -17,6 +17,12 @@ as there exists-
 
 **/
 
+/**
+Time complexity: If m is the number of rows and n is the number of columns. The time complexity of this algorithm is 0(mn^2)
+Space complexity: In worst situation its _____
+
+**/
+
 public class Main {
     
     public static boolean isRectangle(int[][] arg){

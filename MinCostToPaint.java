@@ -7,7 +7,8 @@ Given an N by K matrix where the nth row and kth column represents the cost to b
 
 **/
 
-
+/** O(nk) **/
+Time complexity: 
  public int minCost(int[][] costs) {
         if(costs==null || costs.length==0){
             return 0;
